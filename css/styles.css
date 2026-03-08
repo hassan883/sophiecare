@@ -221,7 +221,7 @@ img {
   left: 0;
   width: 100%;
   z-index: 1001;
-  background: var(--primary-dark);
+  background: var(--text);
   color: rgba(255, 255, 255, 0.9);
   font-size: 0.82rem;
   padding: 8px 0;
@@ -305,9 +305,12 @@ img {
 }
 
 .nav-logo-img {
-  height: 40px;
+  height: 60px;
   width: auto;
   flex-shrink: 0;
+  background: var(--white);
+  border-radius: 8px;
+  padding: 4px 8px;
 }
 
 .nav-logo-icon {
@@ -1531,9 +1534,12 @@ img {
 }
 
 .footer-logo {
-  height: 70px;
+  height: 90px;
   width: auto;
   margin-bottom: 16px;
+  background: var(--white);
+  border-radius: 8px;
+  padding: 6px 10px;
 }
 
 .footer-brand h3 {
