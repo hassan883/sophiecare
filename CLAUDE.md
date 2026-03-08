@@ -12,7 +12,9 @@ This is the website for **Sophie's Homecare**, a Residential Care Facility for t
 - **`css/styles.css`** — All styles in one file
 - **`js/main.js`** — Vanilla JS handling hamburger menu, smooth scrolling, AOS animations, navbar scroll behavior, gallery lightbox, and tour form
 - **`images/logo/`** — Logo assets
+- **`images/fwsophieshomecare/`** — Gallery photos (image0–image12.jpeg)
 - **`prompt.md`** — Original content/design requirements document with copy, color palette, and site structure
+- **`CNAME`** — Custom domain config for GitHub Pages (`sophiehomecare.com`)
 
 ## Running Locally
 
@@ -22,6 +24,10 @@ python3 -m http.server 8000
 ```
 
 No build step, no dependencies to install.
+
+## Hosting
+
+Deployed via GitHub Pages at `sophiehomecare.com`.
 
 ## External Dependencies (loaded via CDN)
 
@@ -43,7 +49,7 @@ Defined in `prompt.md` and implemented in `css/styles.css`:
 
 ## Key Details
 
-- Licensed RCFE, License #09950228
+- Licensed RCFE, License #095920328
 - Address: 4505 Brisbane Circle, El Dorado Hills, CA 95762
 - Administrators: Hamza Malik (916-342-0264), Rommana Asim (916-708-5100)
 - 6-bed boutique care home

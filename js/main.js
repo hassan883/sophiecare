@@ -30,13 +30,16 @@ document.addEventListener('DOMContentLoaded', () => {
 
   // ===== Sticky Nav on Scroll =====
   const navbar = document.querySelector('.navbar');
+  const topBar = document.querySelector('.top-bar');
   const scrollTopBtn = document.querySelector('.scroll-top');
 
   window.addEventListener('scroll', () => {
     if (window.scrollY > 80) {
       navbar.classList.add('scrolled');
+      topBar.classList.add('hidden');
     } else {
       navbar.classList.remove('scrolled');
+      topBar.classList.remove('hidden');
     }
 
     if (window.scrollY > 500) {

@@ -38,7 +38,7 @@
 
 html {
   scroll-behavior: smooth;
-  scroll-padding-top: 80px;
+  scroll-padding-top: 116px;
 }
 
 body {
@@ -214,10 +214,62 @@ img {
   font-family: 'Lato', sans-serif;
 }
 
+/* ===== Top Contact Bar ===== */
+.top-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1001;
+  background: var(--primary-dark);
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 0.82rem;
+  padding: 8px 0;
+  transition: all var(--transition);
+}
+
+.top-bar-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.top-bar-left span,
+.top-bar-right a {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.top-bar-right {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.top-bar-right a {
+  color: rgba(255, 255, 255, 0.9);
+  transition: color var(--transition);
+}
+
+.top-bar-right a:hover {
+  color: var(--white);
+}
+
+.top-bar i {
+  font-size: 0.75rem;
+}
+
+.top-bar.hidden {
+  transform: translateY(-100%);
+}
+
 /* ===== Navigation ===== */
 .navbar {
   position: fixed;
-  top: 0;
+  top: 36px;
   left: 0;
   width: 100%;
   z-index: 1000;
@@ -227,6 +279,7 @@ img {
 }
 
 .navbar.scrolled {
+  top: 0;
   background: rgba(255, 255, 255, 0.95);
   backdrop-filter: blur(20px);
   -webkit-backdrop-filter: blur(20px);
@@ -1912,6 +1965,14 @@ img {
 }
 
 @media (max-width: 768px) {
+  .top-bar {
+    display: none;
+  }
+
+  .navbar {
+    top: 0;
+  }
+
   .section {
     padding: 75px 0;
   }
