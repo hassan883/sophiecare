@@ -51,7 +51,7 @@ Defined in `prompt.md` and implemented in `css/styles.css`:
 
 - Licensed RCFE, License #095920328
 - Address: 4505 Brisbane Circle, El Dorado Hills, CA 95762
-- Administrators: Hamza Malik (916-342-0264), Rommana Asim (916-708-5100)
+- Published contact: Rommana Asim, Administrator (916-708-5100). Hamza Malik's number (916-342-0264) was removed from the site; do not re-add it.
 - 6-bed boutique care home
 - SEO keywords target "RCFE/Assisted Living/Senior Care El Dorado Hills"
 - Schema.org LocalBusiness JSON-LD is embedded in `index.html`
